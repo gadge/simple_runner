@@ -1,0 +1,10 @@
+{
+  "name": "run_js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jasmine JASMINE_CONFIG_PATH=spec/config/jasmine.json"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  }
+}

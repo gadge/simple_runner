@@ -1,7 +1,7 @@
 {
   "name": "run_js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node src/main.js",
     "test": "jasmine JASMINE_CONFIG_PATH=spec/config/jasmine.json"
   },
   "dependencies": {

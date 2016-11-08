@@ -2,9 +2,15 @@
   "name": "run_js",
   "scripts": {
     "start": "node src/main.js",
-    "test": "jasmine JASMINE_CONFIG_PATH=spec/config/jasmine.json"
+    "test": "jasmine JASMINE_CONFIG_PATH=spec/config/jasmine.json",
+    "test-srv": "json-server --watch spec/config/posts.json"
   },
   "dependencies": {
-    "jasmine": "^2.5.2"
+    "deasync": "^0.1.9",
+    "jasmine": "^2.5.2",
+    "lodash": "^4.16.6"
+  },
+  "devDependencies": {
+    "json-server": "^0.8.23"
   }
 }
